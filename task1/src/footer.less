@@ -1,12 +1,15 @@
 .footer {
     display: flex;
+    margin: auto;
     flex-direction: row;
     justify-content: space-between;
-
-    width: 1360px;
+    // border-top: 1px solid var(--base-07);
+    
     height: 128px;
-    padding: 64px 128px 24px 128px;
-    background-color: var(--base-02);
+    padding: 20px 0 24px 0;
+    margin-right: 128px;
+    margin-left: 128px;
+    border-top: 1px solid var(--base-07);
 
     &-text {
         font-family: var(--text-font);
@@ -26,4 +29,11 @@
             color: var(--text-link);
         }
     }
+}
+
+.container {
+    max-width: 1360px;
+    background-color: var(--base-02);
+    margin-left: auto;
+    margin-right: auto;
 }
