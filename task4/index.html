@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml"
+    href="https://acdn.tinkoff.ru/params/common_front/resourses/icons/favicon-32x32.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Админка карточек(товаров)</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <a id="owner_github"></a>
+    <div>
+      <button class="header-btn" type="button" onclick="openForm('createForm')">Добавить карточку</button>
+      <button id="setup-btn" class="header-btn" type="button">Загрузить тестовый набор</button>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="label flex__start-center">
+      <span>Список товаров</span>
+    </div>
+
+    <div class="cards-list">
+      <!-- <div class="card">
+        <div class="card__content flex__column-start">
+          <div class="card__subtitle flex__space-between">
+            <span>ID (Поставщик)</span>
+            <a onclick="openForm('editForm')">Изменить</a>
+          </div>
+          <div class="card__subcontent flex__start">
+            <img
+              src="Ссылка"
+              alt="Название">
+            <span class="card__name">Название</span>
+          </div>
+          <span>Описание</span>
+        </div>
+      </div> -->
+      <!-- Пустая карточка -->
+      <div class="skeleton card">
+        <div class="card__content flex__column-start">
+          <div class="card__subtitle flex__space-between">
+            <span class="onload__text">ID (Поставщик)</span>
+            <span class="onload__text">Изменить</span>
+          </div>
+          <div class="card__subcontent flex__start">
+            <div class="onload__img"></div>
+            <span class="card__name onload__text">Название</span>
+          </div>
+          <span class="onload__text">Описание</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup flex__center" id="editForm">
+      <div class="content-window flex__column-center">
+        <input class="content-window__input-form" name="idEdit" type="text" placeholder="Код товара"></input>
+        <input class="content-window__input-form" name="nameEdit" type="text" placeholder="Название"></input>
+        <input class="content-window__input-form" name="providerEdit" type="text" placeholder="Поставщик"></input>
+        <input class="content-window__input-form" name="srcEdit" type="url" placeholder="Ссылка на изображение"></input>
+        <textarea class="content-window__input-desc" name="descEdit" placeholder="Описание"></textarea>
+        <div class="content-window__btn-wrapper flex__space-between">
+          <button class="content-window__btn" id="edit-btn" onclick="editCard(event)">Изменить</button>
+          <button class="content-window__btn" id="delete-btn" onclick="deleteCard(event)">Удалить</button>
+          <button class="content-window__btn" onclick="closeForm('editForm')">Отмена</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup flex__center" id="createForm">
+      <div class="content-window flex__column-center">
+        <input class="content-window__input-form" name="idCreate" type="text" placeholder="Код товара"></input>
+        <input class="content-window__input-form" name="nameCreate" type="text" placeholder="Название"></input>
+        <input class="content-window__input-form" name="providerCreate" type="text" placeholder="Поставщик"></input>
+        <input class="content-window__input-form" name="srcCreate" type="url"
+          placeholder="Ссылка на изображение"></input>
+        <textarea class="content-window__input-desc" name="descCreate" placeholder="Описание"></textarea>
+        <div class="content-window__btn-wrapper flex__space-between">
+          <button class="content-window__btn" onclick="addCard()">Добавить</button>
+          <button class="content-window__btn" onclick="closeForm('createForm')">Отмена</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="preloader_id" class="preloader"></div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer-text">
+          <span id="owner_copyright"></span>
+        </div>
+        <div class="footer__contact">
+          <address class="footer-text">
+            <span id="owner_premail"></span>
+            <a id="owner_mail"></a>
+          </address>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script defer type="module" src="./main.js"></script>
+  <script src="scripts/popup.js"></script>
+  <script src="scripts/cards.js"></script>
+</body>
+
+</html>

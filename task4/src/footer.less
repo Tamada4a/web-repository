@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    height: 128px;
+    padding: 20px 0 24px 0;
+    margin-right: 128px;
+    margin-left: 128px;
+    border-top: 1px solid var(--base-03);
+
+    &-text {
+        font-family: var(--text-font);
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        color: var(--text-01);
+    }
+
+    &__contact {
+        display: flex;
+        justify-content: flex-end;
+
+        & a {
+            text-decoration: solid;
+            color: var(--text-link);
+        }
+    }
+}
+
+.container {
+    max-width: 1360px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
