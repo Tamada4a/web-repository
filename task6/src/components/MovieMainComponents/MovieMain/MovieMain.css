@@ -1,0 +1,16 @@
+.img-wrapper {
+    width: 200px;
+    height: 300px;
+}
+
+.last-n-actors {
+    color: var(--blue-02);
+}
+
+.movie-main-wrapper {
+    margin-bottom: 45px;
+}
+
+.main-wrapper {
+    width: 820px;
+}

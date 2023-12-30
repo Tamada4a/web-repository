@@ -1,0 +1,121 @@
+.flex {
+    display: flex;
+}
+
+.start {
+    align-items: flex-start;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.full-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.row-wrap {
+    flex-direction: row;
+}
+
+.column-wrap {
+    flex-direction: column;
+}
+
+.gap-wrap-5px {
+    gap: 5px;
+}
+
+.gap-wrap-6px {
+    gap: 6px;
+}
+
+.gap-wrap-8px {
+    gap: 8px;
+}
+
+.gap-wrap-10px {
+    gap: 10px;
+}
+
+.gap-wrap-15px {
+    gap: 15px;
+}
+
+.gap-wrap-20px {
+    gap: 20px;
+}
+
+.gap-wrap-50px {
+    gap: 50px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.black {
+    color: #000;
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.padding-right-15px {
+    padding-right: 15px;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.roboto {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.roboto-11 {
+    font-size: 11px;
+}
+
+.roboto-12 {
+    font-size: 12px;
+}
+
+.roboto-14 {
+    font-size: 14px;
+}
+
+.roboto-16 {
+    font-size: 16px;
+}
+
+.roboto-20 {
+    font-size: 20px;
+}
+
+.roboto-24 {
+    font-size: 24px;
+}
+
+.roboto-32 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.weight-500 {
+    font-weight: 500;
+}

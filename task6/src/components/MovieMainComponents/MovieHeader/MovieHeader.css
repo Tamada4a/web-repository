@@ -1,0 +1,29 @@
+.movie-header {
+    margin-bottom: 20px;
+}
+
+.copy:hover svg {
+    filter: var(--svg-blue-02);
+    transition: filter 0.3s ease-in-out;
+}
+
+.edit {
+    padding: 7px;
+    border-radius: 8px;
+    background-color: inherit;
+}
+
+.edit:hover {
+    background-color: var(--blue-03);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.edit:hover svg {
+    filter: var(--svg-blue-02);
+    transition: filter 0.3s ease-in-out;
+}
+
+.edit:hover span {
+    color: var(--blue-02);
+    transition: color 0.3s ease-in-out;
+}

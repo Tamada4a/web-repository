@@ -1,0 +1,20 @@
+:root {
+    --line-color: rgba(217, 217, 217, 0.52);
+    --movie-selected: rgba(108, 108, 108, 0.81);
+
+    --header-text-shadow: rgba(0, 0, 0, 0.25);
+    --header-shadow: rgba(0, 0, 0, 0.12);
+
+    --yellow-01: #FFDD2D;
+    --yellow-02: #FCC521;
+
+    --blue-01: #ECF1F7;
+    --blue-02: #336FEE;
+    --blue-03: rgba(66, 139, 249, 0.20);
+
+    --svg-blue-02: brightness(0) saturate(100%) invert(36%) sepia(54%) saturate(2226%) hue-rotate(208deg) brightness(93%) contrast(100%);
+
+    --gray: #6C6C6C;
+
+    --liked: #FF0707;
+}

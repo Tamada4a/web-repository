@@ -1,0 +1,4 @@
+.like-bar:hover svg {
+    filter: var(--svg-blue-02);
+    transition: filter 0.3s ease-in-out;
+}
