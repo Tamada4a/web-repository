@@ -1,0 +1,76 @@
+.popup {
+    display: none;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.content-window {
+    position: relative;
+    width: 630px;
+    height: 506px;
+    padding: 20px;
+    background-color: wheat;
+    gap: 20px;
+    border-radius: 16px;
+
+    &__input-form {
+        border-radius: 16px;
+        background: var(--base-04);
+        height: 48px;
+        width: 608px;
+        border: 1px solid black;
+        padding-left: 20px;
+        outline: none;
+
+        &::placeholder {
+            font: var(--text-font);
+            color: black;
+        }
+    }
+
+    &__input-desc {
+        border-radius: 16px;
+        background: var(--base-04);
+        height: 120px;
+        min-height: 40px;
+        width: 608px;
+        border: 1px solid black;
+        padding-left: 20px;
+        padding-top: 15px;
+        outline: none;
+        resize: none;
+
+        &::placeholder {
+            font: var(--text-font);
+            color: black;
+        }
+    }
+
+    &__btn {
+        border-radius: 12px;
+        background: var(--base-04);
+        height: 48px;
+        width: 140px;
+        border: 1px solid black;
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--base-02);
+            transition: background-color 0.4s ease-in-out 0s;
+        }
+    }
+
+    &__btn-wrapper {
+        width: fit-content;
+        gap: 100px;
+    }
+}

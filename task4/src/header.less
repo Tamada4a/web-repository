@@ -1,0 +1,40 @@
+.main-header {
+    max-width: 1440px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: auto;
+
+    padding: 0 30px;
+
+    box-shadow: 0px 4px 24px 0px var(--text-02);
+
+    & a{
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+            color: var(--text-link);
+            transition: color 0.3s ease-in-out 0s;
+        }
+    }
+}
+
+.header-btn {
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 8px;
+    background-color: var(--base-01);
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+
+    &:hover {
+        background-color: var(--base-02);
+        transition: background-color 0.3s ease-in-out 0s;
+    }
+}

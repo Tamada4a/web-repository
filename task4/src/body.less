@@ -1,0 +1,78 @@
+body {
+    font-family: var(--text-font);
+}
+
+.main {
+    display: block;
+    padding: 0 100px;
+}
+
+.label {
+    & span {
+        font-size: 24px;
+        color: black;
+        width: fit-content;
+    }
+
+    padding: 15px 5px;
+    margin: 20px auto 0 auto;
+}
+
+.card {
+    width: 250px;
+    height: 150px;
+    border-radius: 16px;
+    border: 1px solid black;
+    background-color: wheat;
+    padding: 10px 15px;
+
+    &__content {
+        gap: 5px;
+
+        & img {
+            width: 70px;
+            height: 70px;
+        }
+    }
+
+    &__subcontent {
+        gap: 10px;
+        height: 70px;
+        overflow: hidden;
+    }
+
+    &__subtitle {
+        width: 250px;
+    }
+
+    &__name {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    &__desc {
+        height: 57px;
+        overflow: hidden;
+    }
+
+    & a {
+        color: var(--text-link);
+        cursor: pointer;
+
+        &:hover {
+            color: black;
+            transition: color 0.3s ease-in-out 0s;
+        }
+    }
+}
+
+.cards-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+
+    flex-flow: row wrap;
+    padding-bottom: 50px;
+}
