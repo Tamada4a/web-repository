@@ -1,0 +1,23 @@
+.manip-container-wrapper {
+    height: auto;
+    max-height: 691px;
+    overflow-y: auto;
+}
+
+.manip-container-wrapper::-webkit-scrollbar {
+    width: 8px;
+}
+
+.manip-container-wrapper::-webkit-scrollbar-track {
+    background: var(--blue-03);
+    border-radius: 20px;
+}
+
+.manip-container-wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--blue-02);
+    border-radius: 20px;
+}
+
+.manip-footer {
+    justify-content: flex-end;
+}

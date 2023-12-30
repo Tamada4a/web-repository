@@ -1,0 +1,19 @@
+.movie-bar {
+    border-radius: 8px;
+    padding-left: 15px;
+    width: 395px;
+    height: 48px;
+    margin-bottom: 2px;
+    box-shadow: 0px 1px 2px 0px var(--header-text-shadow);
+}
+
+.movie-bar:hover {
+    transition: background-color 0.3s ease-in-out;
+    background-color: var(--blue-03);
+}
+
+.movie-bar-selected {
+    width: 393px;
+    height: 46px;
+    border: 1px solid var(--movie-selected);
+}

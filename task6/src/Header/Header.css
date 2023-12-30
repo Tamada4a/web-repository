@@ -1,0 +1,24 @@
+.header-wrapper {
+    max-width: 1300px;
+    padding: 0 15px 0 15px;
+    height: 52px;
+    box-shadow: 0px 4px 24px 0px var(--header-shadow);
+    user-select: none;
+    margin-bottom: 10px;
+}
+
+.header-main-text {
+    text-shadow: 0px 4px 4px var(--header-text-shadow);
+}
+
+.author-name {
+    width: 233px;
+    height: 38px;
+    border-radius: 8px;
+    background-color: var(--yellow-01);
+}
+
+.author-name:hover{
+    background-color: var(--yellow-02);
+    transition: background-color 0.3s ease-in-out;
+}
