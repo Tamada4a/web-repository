@@ -1,0 +1,45 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "name": "Шляпа",
+      "provider": "КАВЫЧКИ",
+      "src": "https://sun9-18.userapi.com/impg/A_Lj-kVXuvg_jZPvZxH9juy6_vs6yfHaz_0PFg/knrhYcAMpb8.jpg?size=1280x748&quality=95&sign=3f08bfc66ab1a471ddc4dcb8cadea8f8&type=album",
+      "desc": "Спокойна как удав"
+    },
+    {
+      "id": 2,
+      "name": "Духи",
+      "provider": "КАВЫЧКИ",
+      "src": "https://sun9-38.userapi.com/impg/sXsjopI2sfCLgw8E5fCjLM1UnTFQl_fXxeX_qA/OIwGXujcxk0.jpg?size=1280x962&quality=96&sign=608a35c938f3a6e6755a05fae2207b06&type=album",
+      "desc": "Духи с биполяркой"
+    },
+    {
+      "id": 3,
+      "name": "Зайка на машинке",
+      "provider": "Google",
+      "src": "https://i.pinimg.com/736x/42/99/69/4299698015b43062ca1f022416f53df6.jpg",
+      "desc": "Едем едем в соседнее село"
+    },
+    {
+      "id": 4,
+      "name": "Чупакабра",
+      "provider": "NeuroLavcraft",
+      "src": "https://s0.rbk.ru/v6_top_pics/resized/590xH/media/img/5/31/756806793338315.webp",
+      "desc": "Лавкрафт написал сказку про арбуз"
+    },
+    {
+      "id": 5,
+      "name": "Котёнок",
+      "provider": "Smile",
+      "src": "https://avatars.mds.yandex.net/i?id=dc7361b95e9b0527c543cbb558a72055_l-5878560-images-thumbs&n=27&h=480&w=480",
+      "desc": "Милое пушистое очарование"
+    }
+  ],
+  "owner_info": {
+    "name": "Кирилл Симовин",
+    "group": "6407",
+    "github": "https://github.com/Tamada4a",
+    "mail": "volce.chat@mail.ru"
+  }
+}
